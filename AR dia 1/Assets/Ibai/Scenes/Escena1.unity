@@ -1768,7 +1768,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1337777189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 118461997}
+        m_TargetAssemblyTypeName: UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane,
+          Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1337777189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1915,7 +1928,8 @@ MonoBehaviour:
   placeOnPlane: {fileID: 118461997}
   prefab1: {fileID: 1672727547092743447, guid: e305bc1104981084eacea28aa2242c8b, type: 3}
   prefab2: {fileID: 1399547307116868873, guid: 636f9c21e0b77a242a54188a312dc41a, type: 3}
-  dropdown: {fileID: 0}
+  dropdown: {fileID: 279430986}
+  trackables: {fileID: 118461996}
 --- !u!4 &1595212706
 Transform:
   m_ObjectHideFlags: 0

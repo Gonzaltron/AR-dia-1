@@ -72,5 +72,12 @@ namespace UnityEngine.XR.ARFoundation.Samples
         static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
         ARRaycastManager m_RaycastManager;
+
+
+
+        public void Destroy()
+        {
+            Destroy(spawnedObject);
+        }
     }
 }
