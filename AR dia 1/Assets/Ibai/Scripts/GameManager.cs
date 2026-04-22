@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.XR.ARFoundation.Samples;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -38,5 +39,11 @@ public class GameManager : MonoBehaviour
             placeOnPlane.placedPrefab = prefab2;
             Debug.Log("2");
         }
+    }
+
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }
